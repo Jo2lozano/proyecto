@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.celu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.android-small {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    background: #5F75C4;
+}
+
+.fondos-establecidos {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.rectangle {
+    position: absolute;
+    border-radius: 100px;
+}
+
+.rectangle5 {
+    width: 360px;
+    height: 640px;
+    background: #5F75C4;
+}
+
+.ellipse {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.ellipse4 {
+    width: 91px;
+    height: 70px;
+    left: 279px;
+    top: 222px;
+    background: rgba(162, 164, 38, 0.94);
+}
+
+.ellipse3 {
+    width: 91px;
+    height: 70px;
+    left: 225px;
+    top: 258px;
+    background: rgba(111, 52, 95, 0.63);
+}
+
+.ellipse2 {
+    width: 91px;
+    height: 70px;
+    left: 179px;
+    top: 293px;
+    background: rgba(32, 218, 129, 0.51);
+}
+
+.ellipse1 {
+    width: 91px;
+    height: 70px;
+    left: 134px;
+    top: 328px;
+    background: rgba(52, 93, 111, 0.51);
+}
+
+.carteras {
+    position: absolute;
+    width: 226px;
+    height: 223px;
+    left: 74px;
+    top: 77px;
+    opacity: 0.25;
+}
+
+.barras .rectangle {
+    position: absolute;
+    border-radius: 85px;
+}
+
+.rectangle6 {
+    width: 18px;
+    height: 516px;
+    left: 17px;
+    top: 13px;
+    background: #49BCC4;
+}
+
+.rectangle8 {
+    width: 12px;
+    height: 311px;
+    left: 48px;
+    top: 67px;
+    background: #4CC867;
+}
+
+.rectangle7 {
+    width: 12px;
+    height: 311px;
+    left: 348px;
+    top: 222px;
+    background: #A2A526;
+}
+
+.cartera-title {
+    position: absolute;
+    width: 171px;
+    height: 36px;
+    left: 121px;
+    top: 31px;
+    color: rgba(162, 165, 38, 0.96);
+    font-size: 25px;
+    font-family: 'Fredoka One', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.register-user {
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Francois One', sans-serif;
+    font-weight: 400;
+}
+
+.identificador {
+    position: absolute;
+    width: 100%;
+    top: 120px;
+    text-align: center;
+}
+
+.identificacion-usuario input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.clave {
+    position: absolute;
+    width: 100%;
+    top: 170px;
+    text-align: center;
+}
+
+.clave input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.ingreso {
+    position: absolute;
+    width: 100%;
+    top: 220px;
+    text-align: center;
+}
+
+.ingresar input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #5F75C4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registro {
+    position: absolute;
+    width: 100%;
+    top: 280px;
+    text-align: center;
+}
+
+.registrar input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #4CC867;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

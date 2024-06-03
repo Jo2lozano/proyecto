@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz de Envío - CaRtera Virtual</title>
+    <link rel="stylesheet" href="CaRtera.css"> <!-- Importa el archivo de estilos del index.html -->
+    <style>
+        /* Agrega estilos específicos para la interfaz aquí */
+        .formulario-envio {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .formulario-envio input[type="text"],
+        .formulario-envio input[type="number"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .formulario-envio button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="formulario-envio">
+    <div class="formulario-title">Confirmar Envío</div>
+    <input type="text" placeholder="Número de Celular" id="numero-celular" name="numero_celular">
+    <input type="number" placeholder="Monto de Envío" id="monto-envio" name="monto_envio">
+    <textarea placeholder="Mensaje de Confirmación" id="mensaje-confirmacion" name="mensaje_confirmacion"></textarea>
+    <button onclick="enviarEnvio()">Enviar</button>
+</div>
+</body>
+</html>

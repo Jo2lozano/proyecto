@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaRtera Virtual - Chat</title>
+    <link rel="stylesheet" href="chat.css">
+    <script src="caRtera.js" defer></script>
+</head>
+<body>
+<div class="chat-frame">
+    <div class="chat-container">
+        <div class="chat-contacts">
+            <div class="contacts-header">
+                Contactos
+                <!-- Botón para volver a la página de usuario -->
+                <a href="usuario.html" class="back-button">Volver</a>
+            </div>
+            <ul id="contactList">
+                <!-- Aquí se agregarán los contactos -->
+            </ul>
+        </div>
+        <div class="chat-box">
+            <div class="chat-header">Chat</div>
+            <div class="chat-body" id="chatBody">
+                <!-- Aquí se mostrarán los mensajes del chat -->
+            </div>
+            <div class="chat-footer">
+                <input type="text" class="chat-input" id="chatInput" placeholder="Escribe un mensaje...">
+                <button class="chat-send" onclick="sendMessage()">Enviar</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
